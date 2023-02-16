@@ -232,6 +232,7 @@ font-weight: 600;
     font-size: 16px;
     font-weight: 400;
     margin-top: 20px;
+    color: var(--branding-color-2);
 }
 
 
@@ -242,5 +243,32 @@ font-weight: 600;
 
     .about-main-img {
         width: 50%;
+    }
+}
+
+.heading {
+    font-family: var(--primary-font-family);
+    font-size: 86px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: -60px;
+}
+
+.contact-info {
+    font-family: var(--secondary-font-family);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.contact-links {
+    font-family: var(--secondary-font-family);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media (max-width: 576px) {
+    .heading {
+        font-size: 50px;
     }
 }
