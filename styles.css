@@ -1,6 +1,7 @@
 :root {
     --branding-color: #6C63FF;
     --secondary-color: #F9F7FE;
+    --branding-color-2: #272142;
     --primary-font-family: 'Playfair Display', serif;
     --secondary-font-family: 'Poppins', sans-serif;
 }
@@ -17,7 +18,7 @@
     font-family: var(--secondary-font-family);
     font-size: 32px;
     font-weight: bold;
-    color: #272142;
+    color: var(--branding-color-2);
     margin-bottom: 10px;
 }
 
@@ -54,4 +55,100 @@
     background-color: var(--secondary-color);
     text-align: center;
     padding: 160px 20px;
+}
+
+.divider-text {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: var(--secondary-font-family);
+
+}
+
+.divider {
+    margin: 70px;
+    color: var(--branding-color);
+
+}
+
+.project-name {
+    font-family: var(--primary-font-family);
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.project-desc {
+    font-family: var(--secondary-font-family);
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--branding-color-2);
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.project-img {
+    width: 90%;
+    border: 16px solid var(--secondary-color);
+    border-radius: 10px;
+}
+
+.row {
+    margin-bottom: 50px;
+    margin-left: 510px;
+    margin-right: 510px;
+}
+
+.learn-more-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: white;
+    border-radius: 4px;
+    color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.learn-more-btn:hover {
+    text-decoration: none;
+    background-color: #4E44FD;
+    color: white;
+}
+
+@media (max-width: 900px) {
+    .project-desc {
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .project-name {
+        text-align: center;
+        font-size: 40px;
+    }
+    .col {
+        text-align: center;
+    }
+    .name {
+        font-size: 60px;
+    }
+    .greeting {
+        font-size: 24px;
+    }
+    .description {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .first-btn {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        font-size: 14px;
+=    }
 }
