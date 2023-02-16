@@ -318,7 +318,7 @@ font-weight: 600;
     }
 }
 
-.email {
+.email, .links {
     font-family: var(--secondary-font-family);
     font-size: 16px;
     font-weight: 400;
@@ -329,7 +329,7 @@ font-weight: 600;
     margin-top: 140px;
 }
 
-.email:hover {
+.email:hover, .links:hover {
     color:#4E44FD;
 }
 
