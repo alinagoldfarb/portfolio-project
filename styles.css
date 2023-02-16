@@ -317,3 +317,38 @@ font-weight: 600;
         font-size: 40px;
     }
 }
+
+.email {
+    font-family: var(--secondary-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--branding-color);
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.email:hover {
+    color:#4E44FD;
+}
+
+i {
+    color: var(--branding-color);
+    font-size: 20px;
+    border: 1px solid var(--branding-color);
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+}
+
+.socials {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    padding: 45px 20px;
+}
